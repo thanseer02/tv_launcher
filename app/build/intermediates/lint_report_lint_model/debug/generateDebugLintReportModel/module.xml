@@ -1,0 +1,17 @@
+<lint-module
+    format="1"
+    dir="/Users/tanseer/Documents/oopsss/launcher/app"
+    name=":app"
+    type="APP"
+    maven="LeanTV:app:"
+    agpVersion="8.2.2"
+    buildFolder="build"
+    bootClassPath="/Users/tanseer/Library/Android/sdk/platforms/android-34/android.jar:/Users/tanseer/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.leantv.launcher.app-mergeReleaseResources-34:/layout/item_tv_setting.xml",
+        "source": "com.leantv.launcher.app-main-37:/layout/item_tv_setting.xml"
+    },
+    {
+        "merged": "com.leantv.launcher.app-mergeReleaseResources-34:/layout/activity_app_drawer.xml",
+        "source": "com.leantv.launcher.app-main-37:/layout/activity_app_drawer.xml"
+    },
+    {
+        "merged": "com.leantv.launcher.app-mergeReleaseResources-34:/layout/item_tv_app.xml",
+        "source": "com.leantv.launcher.app-main-37:/layout/item_tv_app.xml"
+    },
+    {
+        "merged": "com.leantv.launcher.app-mergeReleaseResources-34:/layout/activity_settings.xml",
+        "source": "com.leantv.launcher.app-main-37:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.leantv.launcher.app-mergeReleaseResources-34:/layout/activity_main.xml",
+        "source": "com.leantv.launcher.app-main-37:/layout/activity_main.xml"
+    }
+]

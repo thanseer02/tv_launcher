@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.leantv.launcher.AppModelAndConstantsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-12T10:36:50" hostname="Tanseers-Mac-mini.local" time="0.012">
+  <properties/>
+  <testcase name="testConstantsBounds" classname="com.leantv.launcher.AppModelAndConstantsTest" time="0.001"/>
+  <testcase name="testAppListSorting" classname="com.leantv.launcher.AppModelAndConstantsTest" time="0.008"/>
+  <testcase name="testAppModelComponentKey" classname="com.leantv.launcher.AppModelAndConstantsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

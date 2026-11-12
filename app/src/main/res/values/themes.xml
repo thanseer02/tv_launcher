@@ -1,0 +1,24 @@
+<resources>
+    <style name="Theme.LeanTV.Base" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowOverscan">true</item>
+        <item name="android:windowBackground">@color/bg_oled_black</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.LeanTV.Oled" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_oled_black</item>
+    </style>
+
+    <style name="Theme.LeanTV.Charcoal" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_charcoal</item>
+    </style>
+
+    <style name="Theme.LeanTV.DeepNavy" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_deep_navy</item>
+    </style>
+</resources>
+

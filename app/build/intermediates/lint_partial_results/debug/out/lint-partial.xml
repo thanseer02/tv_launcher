@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.leantv.launcher.presentation.receiver.PackageChangeReceiver"
+                    boolean="true"/>
+                <entry
+                    name="com.leantv.launcher.presentation.home.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.HOME_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/util/DPadUtils.kt"
+                            line="85"
+                            column="32"
+                            startOffset="3149"
+                            endLine="85"
+                            endColumn="69"
+                            endOffset="3186"/>
+                    </map>
+                    <map id="android.settings.APPLICATION_DETAILS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/util/DPadUtils.kt"
+                            line="48"
+                            column="26"
+                            startOffset="1763"
+                            endLine="48"
+                            endColumn="78"
+                            endOffset="1815"/>
+                    </map>
+                    <map id="android.settings.SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/util/DPadUtils.kt"
+                            line="91"
+                            column="42"
+                            startOffset="3421"
+                            endLine="91"
+                            endColumn="74"
+                            endOffset="3453"/>
+                    </map>
+                    <map id="android.intent.action.DELETE (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/util/DPadUtils.kt"
+                            line="63"
+                            column="26"
+                            startOffset="2315"
+                            endLine="63"
+                            endColumn="54"
+                            endOffset="2343"/>
+                    </map>
+                    <map id="android.settings.MANAGE_DEFAULT_APPS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/util/DPadUtils.kt"
+                            line="79"
+                            column="26"
+                            startOffset="2895"
+                            endLine="79"
+                            endColumn="78"
+                            endOffset="2947"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.danger_red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="23"
+            column="12"
+            startOffset="871"
+            endLine="23"
+            endColumn="29"
+            endOffset="888"/>
+        <location id="R.color.text_focused"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="18"
+            column="12"
+            startOffset="708"
+            endLine="18"
+            endColumn="31"
+            endOffset="727"/>
+        <location id="R.dimen.tv_focus_elevation"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/dimens.xml"
+            line="20"
+            column="12"
+            startOffset="747"
+            endLine="20"
+            endColumn="37"
+            endOffset="772"/>
+        <location id="R.string.action_unhide_app"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="15"
+            column="13"
+            startOffset="679"
+            endLine="15"
+            endColumn="37"
+            endOffset="703"/>
+        <entry
+            name="model"
+            string="color[text_focused(D),focus_border_color(U),surface_card_focused(U),text_primary(U),bg_oled_black(U),surface_card(U),accent_blue(U),badge_bg(D),favorite_gold(U),bg_charcoal(U),focus_glow_color(D),bg_deep_navy(U),focus_indicator(D),danger_red(D),text_secondary(U)],dimen[tv_card_spacing(U),tv_app_label_size(U),tv_card_icon_size(U),tv_focus_elevation(D),tv_card_width(U),tv_card_corner_radius(U),tv_focus_stroke_width(U),tv_section_title_size(U),tv_card_height(U),tv_screen_padding_vertical(U),tv_screen_padding_horizontal(U),tv_clock_time_size(U),tv_clock_date_size(U)],drawable[ic_apps(U),ic_launcher_foreground(U),ic_settings(U),bg_top_action_button(U),ic_star(U),ic_launcher_banner(U),bg_tv_card(U)],id[rv_favorites(D),setting_default_home(D),tv_app_label(D),tv_setting_summary(D),et_search(D),iv_app_icon(D),progress_bar(D),card_container(D),tc_date(D),rv_all_apps(D),clock_container(U),tv_empty_state(D),drawer_progress_bar(D),main_layout(D),setting_item_root(D),setting_sort_order(D),top_actions_container(D),setting_theme(D),iv_favorite_badge(D),tv_setting_title(D),tv_favorites_title(D),rv_installed_apps(D),scroll_container(D),tc_time(D),btn_all_apps(D),setting_about(D),tv_installed_title(D),setting_hidden_apps(D),btn_settings(D),setting_grid_columns(D)],layout[item_tv_setting(U),item_tv_app(U),activity_main(U),activity_app_drawer(U),activity_settings(U)],mipmap[ic_launcher(U)],string[action_hide_app(U),action_uninstall(U),action_unhide_app(D),pref_default_launcher_summary(U),settings_title(U),action_open(U),sort_recent(U),action_add_favorite(U),hidden_apps_empty(U),pref_hidden_apps(U),sort_order(U),pref_default_launcher(U),pref_about_summary(U),no_apps_found(U),search_hint(U),installed_apps_title(U),sort_az(U),pref_grid_columns(U),action_app_info(U),app_drawer_title(U),pref_theme(U),app_name(U),dialog_options_title(D),action_remove_favorite(U),sort_za(U),favorites_title(U),pref_about(U)],style[Theme_LeanTV_Base(U),Theme_LeanTV_Oled(U),Theme_LeanTV_DeepNavy(U),Theme_MaterialComponents_NoActionBar(R),Theme_LeanTV_Charcoal(U)];1c^3,1e^3,1f^1,20^8,22^14^2^1^15^5,41^22^3^e,42^22^17^f^13^11^20^3^10,43^18^19^3^1a^e^1b^1f^1c^5a^1e^4b^2d^60^16^42^56^54^6,44^18^19^5a^3^1f^55^e^6^42,45^18^19^4b^3^41,46^4^1d,62^65^4^3,63^62^4,64^62^b,66^62^9;;;"/>
+        <location id="R.color.focus_indicator"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="13"
+            column="12"
+            startOffset="537"
+            endLine="13"
+            endColumn="34"
+            endOffset="559"/>
+        <location id="R.color.badge_bg"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="24"
+            column="12"
+            startOffset="916"
+            endLine="24"
+            endColumn="27"
+            endOffset="931"/>
+        <location id="R.string.dialog_options_title"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="18"
+            column="13"
+            startOffset="844"
+            endLine="18"
+            endColumn="40"
+            endOffset="871"/>
+        <location id="R.color.focus_glow_color"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="12"
+            column="12"
+            startOffset="484"
+            endLine="12"
+            endColumn="35"
+            endOffset="507"/>
+    </map>
+
+</incidents>

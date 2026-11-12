@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#3D82F6</color>
+    <color name="badge_bg">#263238</color>
+    <color name="bg_charcoal">#121212</color>
+    <color name="bg_deep_navy">#0A0E17</color>
+    <color name="bg_oled_black">#000000</color>
+    <color name="danger_red">#EF4444</color>
+    <color name="favorite_gold">#FBBF24</color>
+    <color name="focus_border_color">#4C9AFF</color>
+    <color name="focus_glow_color">#334C9AFF</color>
+    <color name="focus_indicator">#FFFFFF</color>
+    <color name="surface_card">#1A1A1A</color>
+    <color name="surface_card_focused">#2A3B5C</color>
+    <color name="text_focused">#FFFFFF</color>
+    <color name="text_primary">#F0F0F0</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <dimen name="tv_app_label_size">14sp</dimen>
+    <dimen name="tv_card_corner_radius">12dp</dimen>
+    <dimen name="tv_card_height">124dp</dimen>
+    <dimen name="tv_card_icon_size">56dp</dimen>
+    <dimen name="tv_card_spacing">16dp</dimen>
+    <dimen name="tv_card_width">156dp</dimen>
+    <dimen name="tv_clock_date_size">16sp</dimen>
+    <dimen name="tv_clock_time_size">48sp</dimen>
+    <dimen name="tv_focus_elevation">8dp</dimen>
+    <dimen name="tv_focus_stroke_width">3dp</dimen>
+    <dimen name="tv_screen_padding_horizontal">48dp</dimen>
+    <dimen name="tv_screen_padding_vertical">32dp</dimen>
+    <dimen name="tv_section_title_size">20sp</dimen>
+    <string name="action_add_favorite">Add to Favorites</string>
+    <string name="action_app_info">App Info</string>
+    <string name="action_hide_app">Hide App</string>
+    <string name="action_open">Open</string>
+    <string name="action_remove_favorite">Remove from Favorites</string>
+    <string name="action_unhide_app">Unhide App</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="app_drawer_title">All Apps</string>
+    <string name="app_name">LeanTV</string>
+    <string name="dialog_options_title">App Options</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="hidden_apps_empty">No hidden apps</string>
+    <string name="installed_apps_title">Installed Apps</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="pref_about">About LeanTV</string>
+    <string name="pref_about_summary">Lightweight Native TV Launcher • v1.0.0 (Mi TV &amp; Android 12 Optimized)</string>
+    <string name="pref_default_launcher">Set Default Launcher</string>
+    <string name="pref_default_launcher_summary">Set LeanTV as your default Home launcher</string>
+    <string name="pref_grid_columns">Grid Columns</string>
+    <string name="pref_hidden_apps">Hidden Apps</string>
+    <string name="pref_theme">Theme</string>
+    <string name="search_hint">Search apps…</string>
+    <string name="settings_title">Settings</string>
+    <string name="sort_az">Alphabetical (A–Z)</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="sort_recent">Recently Used</string>
+    <string name="sort_za">Alphabetical (Z–A)</string>
+    <style name="Theme.LeanTV.Base" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowOverscan">true</item>
+        <item name="android:windowBackground">@color/bg_oled_black</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.LeanTV.Charcoal" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_charcoal</item>
+    </style>
+    <style name="Theme.LeanTV.DeepNavy" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_deep_navy</item>
+    </style>
+    <style name="Theme.LeanTV.Oled" parent="Theme.LeanTV.Base">
+        <item name="android:windowBackground">@color/bg_oled_black</item>
+    </style>
+</resources>

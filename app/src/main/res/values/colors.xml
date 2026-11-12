@@ -1,0 +1,26 @@
+<resources>
+    <!-- Backgrounds (Pure OLED black & subtle tones for low eye strain on large TV) -->
+    <color name="bg_oled_black">#000000</color>
+    <color name="bg_charcoal">#121212</color>
+    <color name="bg_deep_navy">#0A0E17</color>
+
+    <color name="surface_card">#1A1A1A</color>
+    <color name="surface_card_focused">#2A3B5C</color>
+
+    <!-- TV D-Pad Focus & Glow (high contrast for 10-foot TV viewing) -->
+    <color name="focus_border_color">#4C9AFF</color>
+    <color name="focus_glow_color">#334C9AFF</color>
+    <color name="focus_indicator">#FFFFFF</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#F0F0F0</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="text_focused">#FFFFFF</color>
+
+    <!-- Accents -->
+    <color name="accent_blue">#3D82F6</color>
+    <color name="favorite_gold">#FBBF24</color>
+    <color name="danger_red">#EF4444</color>
+    <color name="badge_bg">#263238</color>
+</resources>
+

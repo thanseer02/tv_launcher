@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.leantv.launcher"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Android TV Leanback Hardware Features -->
+12    <uses-feature
+12-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:6:5-8:36
+13        android:name="android.software.leanback"
+13-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:7:9-49
+14        android:required="false" />
+14-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:8:9-33
+15    <uses-feature
+15-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:9:5-11:36
+16        android:name="android.hardware.touchscreen"
+16-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:10:9-52
+17        android:required="false" />
+17-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:11:9-33
+18    <uses-feature
+18-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.telephony"
+19-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:13:9-50
+20        android:required="false" />
+20-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:14:9-33
+21    <uses-feature
+21-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:15:5-17:36
+22        android:name="android.hardware.camera"
+22-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:16:9-47
+23        android:required="false" />
+23-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:17:9-33
+24
+25    <!-- Query all launchable apps in Android 11+ (API 30+) and Android 12 (API 31/32) -->
+26    <queries>
+26-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:20:5-31:15
+27
+28        <!-- TV Leanback Launcher Apps -->
+29        <intent>
+29-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:22:9-25:18
+30            <action android:name="android.intent.action.MAIN" />
+30-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:13-65
+30-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:21-62
+31
+32            <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+32-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:13-82
+32-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:23-79
+33        </intent>
+34        <!-- Standard Launcher Apps (Sideloaded apps, tools, settings on Android TV) -->
+35        <intent>
+35-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:27:9-30:18
+36            <action android:name="android.intent.action.MAIN" />
+36-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:13-65
+36-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:21-62
+37
+38            <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:29:13-73
+38-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:29:23-70
+39        </intent>
+40    </queries>
+41
+42    <permission
+42-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+43        android:name="com.leantv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.leantv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:33:5-89:19
+49        android:name="com.leantv.launcher.LeanTVApplication"
+49-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:34:9-42
+50        android:allowBackup="true"
+50-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:35:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.12.0] /Users/tanseer/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+52        android:banner="@drawable/ic_launcher_banner"
+52-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:36:9-54
+53        android:debuggable="true"
+54        android:extractNativeLibs="false"
+55        android:icon="@mipmap/ic_launcher"
+55-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:37:9-43
+56        android:label="@string/app_name"
+56-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:38:9-41
+57        android:supportsRtl="true"
+57-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:39:9-35
+58        android:theme="@style/Theme.LeanTV.Oled" >
+58-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:40:9-49
+59
+60        <!-- Main TV Home Screen Activity -->
+61        <activity
+61-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:43:9-61:20
+62            android:name="com.leantv.launcher.presentation.home.MainActivity"
+62-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:44:13-59
+63            android:clearTaskOnLaunch="true"
+63-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:45:13-45
+64            android:excludeFromRecents="true"
+64-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:46:13-46
+65            android:exported="true"
+65-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:47:13-36
+66            android:launchMode="singleTask"
+66-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:48:13-44
+67            android:screenOrientation="landscape"
+67-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:49:13-50
+68            android:stateNotNeeded="true"
+68-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:50:13-42
+69            android:windowSoftInputMode="stateAlwaysHidden" >
+69-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:51:13-60
+70
+71            <!-- Register as Android TV Home Launcher -->
+72            <intent-filter>
+72-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:55:13-60:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:13-65
+73-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:21-62
+74
+75                <category android:name="android.intent.category.HOME" />
+75-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:57:17-73
+75-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:57:27-70
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:58:17-76
+76-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:58:27-73
+77                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+77-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:13-82
+77-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:23-79
+78            </intent-filter>
+79        </activity>
+80
+81        <!-- Full App Drawer Activity -->
+82        <activity
+82-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:64:9-68:63
+83            android:name="com.leantv.launcher.presentation.drawer.AppDrawerActivity"
+83-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:65:13-66
+84            android:exported="false"
+84-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:66:13-37
+85            android:screenOrientation="landscape"
+85-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:67:13-50
+86            android:windowSoftInputMode="stateAlwaysHidden" />
+86-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:68:13-60
+87
+88        <!-- Settings Activity -->
+89        <activity
+89-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:71:9-75:63
+90            android:name="com.leantv.launcher.presentation.settings.SettingsActivity"
+90-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:72:13-67
+91            android:exported="false"
+91-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:73:13-37
+92            android:screenOrientation="landscape"
+92-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:74:13-50
+93            android:windowSoftInputMode="stateAlwaysHidden" />
+93-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:75:13-60
+94
+95        <!-- Broadcast Receiver for App Install, Uninstall, Update -->
+96        <receiver
+96-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:78:9-87:20
+97            android:name="com.leantv.launcher.presentation.receiver.PackageChangeReceiver"
+97-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:79:13-72
+98            android:exported="true" >
+98-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:80:13-36
+99            <intent-filter>
+99-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:81:13-86:29
+100                <action android:name="android.intent.action.PACKAGE_ADDED" />
+100-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:82:17-78
+100-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:82:25-75
+101                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+101-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:83:17-80
+101-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:83:25-77
+102                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+102-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:84:17-81
+102-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:84:25-78
+103
+104                <data android:scheme="package" />
+104-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:85:17-50
+104-->/Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:85:23-47
+105            </intent-filter>
+106        </receiver>
+107
+108        <provider
+108-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+109            android:name="androidx.startup.InitializationProvider"
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+110            android:authorities="com.leantv.launcher.androidx-startup"
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+111            android:exported="false" >
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+112            <meta-data
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+114                android:value="androidx.startup" />
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/tanseer/.gradle/caches/transforms-3/40af677edc9e981bf1ec9bb11c8b1d32/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/tanseer/.gradle/caches/transforms-3/01096349b0936ba7f741e909295c017b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/tanseer/.gradle/caches/transforms-3/01096349b0936ba7f741e909295c017b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/tanseer/.gradle/caches/transforms-3/01096349b0936ba7f741e909295c017b/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tanseer/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>

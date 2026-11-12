@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="conditional_incidents">
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_apps.xml"
+            line="8"
+            column="28"
+            startOffset="258"
+            endLine="8"
+            endColumn="47"
+            endOffset="277"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_settings.xml"
+            line="8"
+            column="28"
+            startOffset="258"
+            endLine="8"
+            endColumn="47"
+            endOffset="277"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_star.xml"
+            line="8"
+            column="28"
+            startOffset="258"
+            endLine="8"
+            endColumn="48"
+            endOffset="278"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/data/repository/AppRepository.kt"
+            line="118"
+            column="28"
+            startOffset="4409"
+            endLine="118"
+            endColumn="49"
+            endOffset="4430"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="GestureBackNavigation"
+        severity="warning"
+        message="If intercepting back events, this should be handled through the registration of callbacks on the window level; Please see https://developer.android.com/about/versions/13/features/predictive-back-gesture">
+        <show-url
+            url="https://developer.android.com/about/versions/13/features/predictive-back-gesture"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/leantv/launcher/presentation/home/MainActivity.kt"
+            line="209"
+            column="13"
+            startOffset="8269"
+            endLine="209"
+            endColumn="34"
+            endOffset="8290"/>
+    </incident>
+
+</incidents>
