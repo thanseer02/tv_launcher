@@ -1,6 +1,28 @@
 package com.auratv.launcher.model
 
 object BuiltinProfiles {
+    val FREE_MY_TV = LauncherProfile(
+        name = "Free My TV (Glass)",
+        themeMode = ThemeMode.DARK,
+        accentColorHex = "#FFFFFF",
+        cornerRadiusStyle = CornerRadiusStyle.ROUNDED,
+        layoutStyle = LayoutStyle.SINGLE_ROW,
+        gridColumns = 7,
+        cardSize = CardSize.MEDIUM,
+        showFavorites = true,
+        showRecents = false,
+        showAllApps = true,
+        showTopBar = true,
+        showAppLabels = false,
+        iconStyle = IconStyle.BANNER,
+        wallpaperType = WallpaperType.GRADIENT,
+        wallpaperColor = "#0D0E15",
+        wallpaperBlur = 0.8f,
+        wallpaperDim = 0.45f,
+        focusEffect = FocusEffect.SCALE,
+        animationSpeed = AnimationSpeed.FAST
+    )
+
     val MINIMAL = LauncherProfile(
         name = "Minimal",
         themeMode = ThemeMode.AMOLED,
@@ -83,6 +105,6 @@ object BuiltinProfiles {
         animationSpeed = AnimationSpeed.SLOW
     )
 
-    val ALL_PRESETS = listOf(MINIMAL, MEDIA_CENTER, GAMING, KIDS)
+    val ALL_PRESETS = listOf(FREE_MY_TV, MINIMAL, MEDIA_CENTER, GAMING, KIDS)
 }
 

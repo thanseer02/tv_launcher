@@ -136,24 +136,15 @@ fun AppCard(
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = modifier
-            .scale(scale)
             .graphicsLayer {
-                this.rotationY = rotationY
-                cameraDistance = 12f * density
+                scaleX = scale
+                scaleY = scale
+                if (focusEffect == FocusEffect.PARALLAX) {
+                    this.rotationY = rotationY
+                    cameraDistance = 12f * density
+                }
             }
             .zIndex(if (isFocused) 10f else 1f)
-            .then(
-                if (isFocused && focusEffect == FocusEffect.GLOW) {
-                    Modifier.shadow(
-                        elevation = 20.dp,
-                        shape = shape,
-                        spotColor = accentColor,
-                        ambientColor = accentColor
-                    )
-                } else if (isFocused && focusEffect != FocusEffect.NONE) {
-                    Modifier.shadow(elevation = 12.dp, shape = shape)
-                } else Modifier
-            )
             .clip(shape)
             .border(
                 border = BorderStroke(

@@ -178,6 +178,17 @@ fun HomeScreen(
                 contentPadding = PaddingValues(bottom = 32.dp),
                 verticalArrangement = Arrangement.spacedBy(28.dp)
             ) {
+                // Free My TV style Hero Featured Spotlight
+                if (allApps.isNotEmpty()) {
+                    item(key = "section_hero_spotlight") {
+                        HeroFeaturedSection(
+                            apps = allApps,
+                            accentColor = accentColor,
+                            onAppClick = onAppClick
+                        )
+                    }
+                }
+
                 // Section Order Rendering
                 for (sectionKey in profile.sectionOrder) {
                     when (sectionKey) {
@@ -253,6 +264,121 @@ fun HomeScreen(
                     onOpenSettings = onOpenSettings,
                     onSwitchToOriginalLauncher = onSwitchToOriginalLauncher
                 )
+            }
+        }
+    }
+}
+
+@Composable
+private fun HeroFeaturedSection(
+    apps: List<AppItem>,
+    accentColor: Color,
+    onAppClick: (AppItem) -> Unit
+) {
+    val featuredApp = apps.firstOrNull() ?: return
+    val secondaryApp = apps.getOrNull(1)
+    val tertiaryApp = apps.getOrNull(2)
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 48.dp)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(24.dp)
+        ) {
+            // Main wide hero card (3 columns equivalent in Free My TV)
+            Box(
+                modifier = Modifier
+                    .weight(1.8f)
+                    .height(260.dp)
+                    .clip(RoundedCornerShape(22.dp))
+                    .background(
+                        Brush.linearGradient(
+                            colors = listOf(
+                                Color(featuredApp.dominantColor).copy(alpha = 0.9f),
+                                Color(0xFF161922)
+                            )
+                        )
+                    )
+                    .border(1.dp, Color(0x33FFFFFF), RoundedCornerShape(22.dp))
+                    .clickable { onAppClick(featuredApp) }
+                    .padding(24.dp),
+                contentAlignment = Alignment.BottomStart
+            ) {
+                Column {
+                    Text(
+                        text = featuredApp.displayLabel,
+                        fontSize = 26.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = "Featured • Ready to play",
+                        fontSize = 14.sp,
+                        color = Color(0xFFA1A1AA)
+                    )
+                }
+            }
+
+            // Secondary card
+            if (secondaryApp != null) {
+                Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .height(260.dp)
+                        .clip(RoundedCornerShape(22.dp))
+                        .background(
+                            Brush.linearGradient(
+                                colors = listOf(
+                                    Color(secondaryApp.dominantColor).copy(alpha = 0.8f),
+                                    Color(0xFF161922)
+                                )
+                            )
+                        )
+                        .border(1.dp, Color(0x33FFFFFF), RoundedCornerShape(22.dp))
+                        .clickable { onAppClick(secondaryApp) }
+                        .padding(20.dp),
+                    contentAlignment = Alignment.BottomStart
+                ) {
+                    Text(
+                        text = secondaryApp.displayLabel,
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White
+                    )
+                }
+            }
+
+            // Tertiary card
+            if (tertiaryApp != null) {
+                Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .height(260.dp)
+                        .clip(RoundedCornerShape(22.dp))
+                        .background(
+                            Brush.linearGradient(
+                                colors = listOf(
+                                    Color(tertiaryApp.dominantColor).copy(alpha = 0.8f),
+                                    Color(0xFF161922)
+                                )
+                            )
+                        )
+                        .border(1.dp, Color(0x33FFFFFF), RoundedCornerShape(22.dp))
+                        .clickable { onAppClick(tertiaryApp) }
+                        .padding(20.dp),
+                    contentAlignment = Alignment.BottomStart
+                ) {
+                    Text(
+                        text = tertiaryApp.displayLabel,
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White
+                    )
+                }
             }
         }
     }

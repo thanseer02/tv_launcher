@@ -23,6 +23,8 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -180,46 +182,48 @@ fun TopBar(
     Row(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 48.dp, vertical = 18.dp),
+            .padding(horizontal = 48.dp, vertical = 20.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Date and Time
-        Row(verticalAlignment = Alignment.Bottom) {
+        // Free My TV style Title & Tabs
+        Column {
             Text(
-                text = currentTime,
-                fontSize = (28f * profile.textSizeScale).sp,
+                text = "For You",
+                fontSize = (38f * profile.textSizeScale).sp,
                 fontFamily = font,
-                fontWeight = FontWeight.SemiBold,
+                fontWeight = FontWeight.Bold,
                 color = Color.White
             )
-            Spacer(modifier = Modifier.width(12.dp))
-            Text(
-                text = currentDate,
-                fontSize = (15f * profile.textSizeScale).sp,
-                fontFamily = font,
-                fontWeight = FontWeight.Normal,
-                color = Color(0xFFA1A1AA),
-                modifier = Modifier.padding(bottom = 3.dp)
-            )
-
-            if (profile.showWeather) {
-                Spacer(modifier = Modifier.width(16.dp))
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(bottom = 3.dp)) {
-                    Icon(
-                        imageVector = Icons.Default.Cloud,
-                        contentDescription = "Weather",
-                        tint = Color(0xFF93C5FD),
-                        modifier = Modifier.size(18.dp)
-                    )
-                    Spacer(modifier = Modifier.width(4.dp))
-                    Text(
-                        text = "22°C Clear",
-                        fontSize = (14f * profile.textSizeScale).sp,
-                        fontFamily = font,
-                        color = Color(0xFFE2E8F0)
-                    )
-                }
+            Spacer(modifier = Modifier.height(4.dp))
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(18.dp)
+            ) {
+                Text(
+                    text = "Explore",
+                    fontSize = (15f * profile.textSizeScale).sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+                Text(
+                    text = "Movies",
+                    fontSize = (15f * profile.textSizeScale).sp,
+                    fontWeight = FontWeight.Normal,
+                    color = Color(0xFF8E8E93)
+                )
+                Text(
+                    text = "Shows",
+                    fontSize = (15f * profile.textSizeScale).sp,
+                    fontWeight = FontWeight.Normal,
+                    color = Color(0xFF8E8E93)
+                )
+                Text(
+                    text = "•   $currentTime",
+                    fontSize = (14f * profile.textSizeScale).sp,
+                    fontWeight = FontWeight.Normal,
+                    color = Color(0xFFA1A1AA)
+                )
             }
         }
 
