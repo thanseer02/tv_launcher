@@ -34,6 +34,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bluetooth
 import androidx.compose.material.icons.filled.Cloud
 import androidx.compose.material.icons.filled.DisplaySettings
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.SdStorage
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Usb
@@ -71,6 +72,7 @@ fun TopBar(
     profile: LauncherProfile,
     accentColor: Color,
     onOpenSettings: () -> Unit,
+    onSwitchToOriginalLauncher: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -315,6 +317,15 @@ fun TopBar(
                         e.printStackTrace()
                     }
                 }
+            )
+
+            // Switch Back to Original TV Launcher
+            TopBarIconButton(
+                icon = Icons.Default.Home,
+                contentDescription = "Switch to Original TV Launcher",
+                tint = Color(0xFFFBBF24),
+                accentColor = accentColor,
+                onClick = onSwitchToOriginalLauncher
             )
 
             // Aura TV Settings Panel

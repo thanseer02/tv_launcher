@@ -80,6 +80,7 @@ fun HomeScreen(
     onMoveFavoriteRight: (AppItem) -> Unit,
     onFinishReordering: () -> Unit,
     onOpenSettings: () -> Unit,
+    onSwitchToOriginalLauncher: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     // Resolve background base color based on ThemeMode
@@ -164,7 +165,8 @@ fun HomeScreen(
                 TopBar(
                     profile = profile,
                     accentColor = accentColor,
-                    onOpenSettings = onOpenSettings
+                    onOpenSettings = onOpenSettings,
+                    onSwitchToOriginalLauncher = onSwitchToOriginalLauncher
                 )
             }
 
@@ -248,7 +250,8 @@ fun HomeScreen(
                 TopBar(
                     profile = profile,
                     accentColor = accentColor,
-                    onOpenSettings = onOpenSettings
+                    onOpenSettings = onOpenSettings,
+                    onSwitchToOriginalLauncher = onSwitchToOriginalLauncher
                 )
             }
         }

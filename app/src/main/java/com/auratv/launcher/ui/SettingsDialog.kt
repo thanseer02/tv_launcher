@@ -105,7 +105,8 @@ fun SettingsDialog(
     onExportBackup: () -> Unit,
     onImportBackup: () -> Unit,
     onPickWallpaper: () -> Unit,
-    onPickWallpaperFolder: () -> Unit
+    onPickWallpaperFolder: () -> Unit,
+    onSwitchToOriginalLauncher: () -> Unit
 ) {
     if (!isOpen) return
 
@@ -554,6 +555,13 @@ fun SettingsDialog(
                                             subtitle = "Revert to clean out-of-the-box launcher state",
                                             accentColor = Color(0xFFF87171),
                                             onClick = onResetDefaults
+                                        )
+                                        Spacer(modifier = Modifier.height(14.dp))
+                                        SettingClickableRow(
+                                            title = "Switch Back to Original TV Launcher",
+                                            subtitle = "Launch stock Google TV / Android TV home or open Home App chooser",
+                                            accentColor = Color(0xFFFBBF24),
+                                            onClick = onSwitchToOriginalLauncher
                                         )
                                     }
                                 }

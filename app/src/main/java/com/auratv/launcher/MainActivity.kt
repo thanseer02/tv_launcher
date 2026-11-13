@@ -114,6 +114,7 @@ class MainActivity : ComponentActivity() {
                 onMoveFavoriteRight = { app -> viewModel.moveFavorite(app, 1) },
                 onFinishReordering = { viewModel.finishReorderingFavorites() },
                 onOpenSettings = { viewModel.openSettings() },
+                onSwitchToOriginalLauncher = { switchToOriginalLauncher() },
                 modifier = Modifier.fillMaxSize()
             )
 
@@ -166,6 +167,10 @@ class MainActivity : ComponentActivity() {
                         wallpaperType = com.auratv.launcher.model.WallpaperType.SLIDESHOW,
                         wallpaperFolderPath = folder.absolutePath
                     ))
+                },
+                onSwitchToOriginalLauncher = {
+                    viewModel.closeSettings()
+                    switchToOriginalLauncher()
                 }
             )
 
@@ -277,6 +282,70 @@ class MainActivity : ComponentActivity() {
             startActivity(intent)
         } catch (e: Exception) {
             Toast.makeText(this, "Unable to initiate uninstallation", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun switchToOriginalLauncher() {
+        val knownStockLaunchers = listOf(
+            "com.google.android.apps.tv.launcherx",   // Google TV Launcher
+            "com.google.android.leanbacklauncher",     // Android TV Leanback Launcher
+            "com.amazon.firehomestarter",              // Fire OS Home
+            "com.amazon.tv.launcher",                  // Fire TV Launcher
+            "com.xiaomi.mitv.tvhome",                  // Xiaomi PatchWall
+            "com.tcl.tvplayer"                         // TCL UI
+        )
+
+        for (pkg in knownStockLaunchers) {
+            val launchIntent = packageManager.getLeanbackLaunchIntentForPackage(pkg)
+                ?: packageManager.getLaunchIntentForPackage(pkg)
+            if (launchIntent != null) {
+                launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                try {
+                    startActivity(launchIntent)
+                    return
+                } catch (e: Exception) {
+                    // Try next
+                }
+            }
+        }
+
+        // Fallback: Query all HOME or LEANBACK_LAUNCHER activities excluding our own app
+        val homeIntent = Intent(Intent.ACTION_MAIN).apply {
+            addCategory(Intent.CATEGORY_HOME)
+        }
+        val resolveList = packageManager.queryIntentActivities(homeIntent, 0)
+            .filter { it.activityInfo.packageName != packageName }
+
+        val targetResolve = resolveList.firstOrNull()
+        if (targetResolve != null) {
+            val intent = Intent(Intent.ACTION_MAIN).apply {
+                addCategory(Intent.CATEGORY_HOME)
+                setClassName(targetResolve.activityInfo.packageName, targetResolve.activityInfo.name)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            try {
+                startActivity(intent)
+                return
+            } catch (e: Exception) {
+                // Fallback to settings
+            }
+        }
+
+        // Ultimate fallback: open Home App / Manage Default Apps settings screen
+        try {
+            val settingsIntent = Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS).apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            startActivity(settingsIntent)
+        } catch (e: Exception) {
+            try {
+                val appSettingsIntent = Intent(Settings.ACTION_SETTINGS).apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+                startActivity(appSettingsIntent)
+            } catch (ex: Exception) {
+                Toast.makeText(this, "Unable to open stock launcher", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
