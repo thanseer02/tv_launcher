@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_apps">All Apps</string>
+    <string name="app_info">App Info</string>
+    <string name="app_name">Aura TV Launcher</string>
+    <string name="backup_layout">Backup Layout (JSON)</string>
+    <string name="columns_count">Columns: %1$d</string>
+    <string name="favorites">Favorites</string>
+    <string name="hide_app">Hide App</string>
+    <string name="pin_to_favorites">Pin to Favorites</string>
+    <string name="recently_used">Recently Used</string>
+    <string name="reset_layout">Reset Layout</string>
+    <string name="restore_layout">Restore Layout</string>
+    <string name="settings">Launcher Settings</string>
+    <string name="unhide_app">Unhide App</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="unpin_from_favorites">Unpin from Favorites</string>
+    <string name="wallpaper">Wallpaper</string>
+    <style name="Theme.AuraTVLauncher" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

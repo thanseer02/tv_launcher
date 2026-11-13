@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.auratv.launcher.app-debug-52:/drawable_ic_launcher_banner.xml.flat",
+        "source": "com.auratv.launcher.app-main-54:/drawable/ic_launcher_banner.xml"
+    },
+    {
+        "merged": "com.auratv.launcher.app-debug-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.auratv.launcher.app-main-54:/drawable/ic_launcher_foreground.xml"
+    }
+]

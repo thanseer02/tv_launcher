@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Aura TV Launcher</string>
+    <string name="favorites">Favorites</string>
+    <string name="recently_used">Recently Used</string>
+    <string name="all_apps">All Apps</string>
+    <string name="settings">Launcher Settings</string>
+    <string name="pin_to_favorites">Pin to Favorites</string>
+    <string name="unpin_from_favorites">Unpin from Favorites</string>
+    <string name="hide_app">Hide App</string>
+    <string name="unhide_app">Unhide App</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="app_info">App Info</string>
+    <string name="columns_count">Columns: %1$d</string>
+    <string name="reset_layout">Reset Layout</string>
+    <string name="backup_layout">Backup Layout (JSON)</string>
+    <string name="restore_layout">Restore Layout</string>
+    <string name="wallpaper">Wallpaper</string>
+</resources>
+

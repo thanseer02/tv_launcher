@@ -1,0 +1,543 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:2:1-91:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/5ce469691e92ca69fca0fbd5b6da2153/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tv:tv-foundation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/764a850dabcd72dbedcd8bd0e78ff362/transformed/tv-foundation-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tv:tv-material:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/15dfb5784ec24ec9c33cf75ba27d2dac/transformed/tv-material-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/0fffbcbf675209ed911a301b3b09a589/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2e20329b0b1c7e7438bf3015c0070a40/transformed/coil-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/871bce016258ba8b8ed7a4da31f04c9d/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/3d65f11493881df4eba40b6c0825b2a4/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d706ea4e7bf09a5f9bf316e3a62c5172/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f94c581d07e8caf5bff9d5e0e62f62b0/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ab861a5b15b0727d03c0dad3aa197cba/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b34ce462098e43fc0631914a380ea961/transformed/foundation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/49d50da401cc3c445637b1eb3ee2f120/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b628e28b9f73c630c607dbdf3c6f5fc1/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/644dafeadf4df3186a95707ab5b90ed5/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/fdfda42f25de09d52e34de6c5b852215/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f58df8bea8db9baf0af96076a37c056f/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/3ab47f23471e1805fdc25b18a0c77e92/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/dbf01870fd0e79194f502dc7407011f5/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/d2a71b04d8c17f8ca0d61e576c197e6c/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/fb207b60433cd64e436469011ee9ce2e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/989d827dc00e46976fb15de489432a9e/transformed/runtime-retain/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ecbfb66fcb3f5a5cce62f7af7a81fbc9/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f399960d03ce3cbd10fe703e8eb03e/transformed/palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cbd442f479394b0cbb6ab09c5ea0d8c0/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.6.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/026cf872473e5f1911bb5f3d59b2d110/transformed/transition-1.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/7d9b34296a286b4657cea711c576e522/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/00883f79c55c9838d92c35a1568b940b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/a1d242b475f2def86d3f800e8a17695f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/ba75b11772f88904457a16bdc0a457df/transformed/coil-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/9227f032c593a429e179998e9130c66b/transformed/coil-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/f64736e3a4820501e8b02ebef794eb39/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-core-android:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f3f848862b953446ce6e3f61ae7927/transformed/window-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/e5f7e070324ee57a2f85aaea043e8895/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8921a245301be49596b993ca8939d958/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/4ec9b624c3939eb9d9fd69c63723232d/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/95388ec26d91d2ac06a022110b0271ee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8332d7fcb3ed0304058f488235150ce3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ae8f69c8e8db3628ebbc6c705487911b/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/e4e3832c12f87d03d6674a508cb9ec8d/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/3f693cb8c573ac5627ff98e755c4ec68/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/6b9973784ef787e7921e0e36ca360524/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fbef4188dc244b763a53cda11620e0c7/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/a32dace1447742cc675c4b1899486356/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/203f316009b2a3d0d821e4a232ce5481/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/2d953b6b433c60da60f82f61a5544b33/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/1ea5c9df8f9744599aba22f83838050b/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/5c018e6e36b1eeee5a500e1ddf71ea42/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/f2249c5ebaf837c6e05f995d98882403/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/6bf517859086da9b2c7030e3263dde68/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/8414669b40a27efd864cce544d5a6894/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebba65e06944fedf0dfff5f859e90997/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/57f1764a9e22ea3d4cc1a47ec9f1f96e/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fcb541edbfa2b68c8e11912f0c1846fd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/deb75355f9098d3bd706b974a4ab4460/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b3e881fc8fcec529ba2fb7205da82f34/transformed/ui/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d848129a2747b3216d75d03141d58464/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/8128516a466a0fc8a6ba9c88f4e8f20b/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/adfb5e857513868a61af22ee090a9cab/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/5b596e26e42d3f9b83956d3204181d9d/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebf5c1b70fcef86f96821fd841bf7d3d/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/f788c78f123a52935e1e0eccc8a13e62/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/69973a4b9bf4e8c845da3454a01d8b5f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cb1c52d32e2caab1e0ecfc4f577235a9/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/1c686a934d2dec1c0740b8ba29174fbc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/5784664074d332f2a7f426ff03328428/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dad811527b23a2f5115abca16c174079/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/aed107f3d2c2fa25cdd468c816d1c79d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dfe94a5c010b85594d9c57e1f94a214a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tanseer/.gradle/caches/8.10.2/transforms/445bab6b4a339a797923e7cd4e20b8fe/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/8f6db7c5403634b9c86dc5c773012e97/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/32d66fb2ff657edf7c93fefaf6d86c5d/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/3785a0353628ace50df86d867ba08c5a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2383058c015d03a82b7fca45b2e5e8db/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.software.leanback
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:7:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:10:9-52
+uses-feature#android.hardware.wifi
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:17:5-19:53
+	tools:ignore
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:18:9-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:25:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:29:5-82
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:29:22-79
+application
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:31:5-89:19
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:31:5-89:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/8f6db7c5403634b9c86dc5c773012e97/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/8f6db7c5403634b9c86dc5c773012e97/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:37:9-35
+	android:label
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:36:9-41
+	android:icon
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:35:9-56
+	android:allowBackup
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:33:9-35
+	android:banner
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:34:9-54
+	android:theme
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:38:9-52
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:32:9-42
+activity#com.auratv.launcher.MainActivity
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:40:9-65:20
+	android:screenOrientation
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:48:13-50
+	android:stateNotNeeded
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:49:13-42
+	android:label
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:46:13-45
+	android:launchMode
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:47:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:50:13-56
+	android:exported
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:44:13-36
+	android:configChanges
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:43:13-126
+	android:icon
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:45:13-60
+	android:banner
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:42:13-58
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:41:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.HOME
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:55:17-73
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:55:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:56:27-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:60:13-64:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:62:17-86
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:62:27-83
+receiver#com.auratv.launcher.data.BootReceiver
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:68:9-75:20
+	android:exported
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:69:13-46
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:72:17-79
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:72:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:73:17-86
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:73:25-83
+receiver#com.auratv.launcher.data.PackageChangeReceiver
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:78:9-87:20
+	android:exported
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:79:13-55
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+action:name:android.intent.action.PACKAGE_REPLACED+data:scheme:package
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:81:13-86:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:82:17-78
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:82:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:83:17-80
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:83:25-77
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:84:17-81
+	android:name
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:84:25-78
+data
+ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:85:17-50
+	android:scheme
+		ADDED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml:85:23-47
+uses-sdk
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/5ce469691e92ca69fca0fbd5b6da2153/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/5ce469691e92ca69fca0fbd5b6da2153/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tv:tv-foundation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/764a850dabcd72dbedcd8bd0e78ff362/transformed/tv-foundation-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-foundation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/764a850dabcd72dbedcd8bd0e78ff362/transformed/tv-foundation-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-material:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/15dfb5784ec24ec9c33cf75ba27d2dac/transformed/tv-material-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tv:tv-material:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/15dfb5784ec24ec9c33cf75ba27d2dac/transformed/tv-material-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/0fffbcbf675209ed911a301b3b09a589/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/0fffbcbf675209ed911a301b3b09a589/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2e20329b0b1c7e7438bf3015c0070a40/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2e20329b0b1c7e7438bf3015c0070a40/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/871bce016258ba8b8ed7a4da31f04c9d/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/871bce016258ba8b8ed7a4da31f04c9d/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/3d65f11493881df4eba40b6c0825b2a4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/3d65f11493881df4eba40b6c0825b2a4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d706ea4e7bf09a5f9bf316e3a62c5172/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d706ea4e7bf09a5f9bf316e3a62c5172/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f94c581d07e8caf5bff9d5e0e62f62b0/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f94c581d07e8caf5bff9d5e0e62f62b0/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ab861a5b15b0727d03c0dad3aa197cba/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ab861a5b15b0727d03c0dad3aa197cba/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b34ce462098e43fc0631914a380ea961/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b34ce462098e43fc0631914a380ea961/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/49d50da401cc3c445637b1eb3ee2f120/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/49d50da401cc3c445637b1eb3ee2f120/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b628e28b9f73c630c607dbdf3c6f5fc1/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b628e28b9f73c630c607dbdf3c6f5fc1/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/644dafeadf4df3186a95707ab5b90ed5/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/644dafeadf4df3186a95707ab5b90ed5/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/fdfda42f25de09d52e34de6c5b852215/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/fdfda42f25de09d52e34de6c5b852215/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f58df8bea8db9baf0af96076a37c056f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/f58df8bea8db9baf0af96076a37c056f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/3ab47f23471e1805fdc25b18a0c77e92/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/3ab47f23471e1805fdc25b18a0c77e92/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/dbf01870fd0e79194f502dc7407011f5/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/dbf01870fd0e79194f502dc7407011f5/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/d2a71b04d8c17f8ca0d61e576c197e6c/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/tanseer/.gradle/caches/8.10.2/transforms/d2a71b04d8c17f8ca0d61e576c197e6c/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/fb207b60433cd64e436469011ee9ce2e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/fb207b60433cd64e436469011ee9ce2e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/989d827dc00e46976fb15de489432a9e/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/989d827dc00e46976fb15de489432a9e/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ecbfb66fcb3f5a5cce62f7af7a81fbc9/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ecbfb66fcb3f5a5cce62f7af7a81fbc9/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f399960d03ce3cbd10fe703e8eb03e/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f399960d03ce3cbd10fe703e8eb03e/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cbd442f479394b0cbb6ab09c5ea0d8c0/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cbd442f479394b0cbb6ab09c5ea0d8c0/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.6.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/026cf872473e5f1911bb5f3d59b2d110/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.6.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/026cf872473e5f1911bb5f3d59b2d110/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/7d9b34296a286b4657cea711c576e522/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/7d9b34296a286b4657cea711c576e522/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/00883f79c55c9838d92c35a1568b940b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/00883f79c55c9838d92c35a1568b940b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/a1d242b475f2def86d3f800e8a17695f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/a1d242b475f2def86d3f800e8a17695f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/ba75b11772f88904457a16bdc0a457df/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/ba75b11772f88904457a16bdc0a457df/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/9227f032c593a429e179998e9130c66b/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/9227f032c593a429e179998e9130c66b/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/f64736e3a4820501e8b02ebef794eb39/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/f64736e3a4820501e8b02ebef794eb39/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-core-android:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f3f848862b953446ce6e3f61ae7927/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-core-android:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/c1f3f848862b953446ce6e3f61ae7927/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/e5f7e070324ee57a2f85aaea043e8895/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/e5f7e070324ee57a2f85aaea043e8895/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8921a245301be49596b993ca8939d958/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8921a245301be49596b993ca8939d958/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/4ec9b624c3939eb9d9fd69c63723232d/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/4ec9b624c3939eb9d9fd69c63723232d/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/95388ec26d91d2ac06a022110b0271ee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/95388ec26d91d2ac06a022110b0271ee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8332d7fcb3ed0304058f488235150ce3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/8332d7fcb3ed0304058f488235150ce3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ae8f69c8e8db3628ebbc6c705487911b/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ae8f69c8e8db3628ebbc6c705487911b/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/e4e3832c12f87d03d6674a508cb9ec8d/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/e4e3832c12f87d03d6674a508cb9ec8d/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/3f693cb8c573ac5627ff98e755c4ec68/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/3f693cb8c573ac5627ff98e755c4ec68/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/6b9973784ef787e7921e0e36ca360524/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/6b9973784ef787e7921e0e36ca360524/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fbef4188dc244b763a53cda11620e0c7/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fbef4188dc244b763a53cda11620e0c7/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/a32dace1447742cc675c4b1899486356/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/a32dace1447742cc675c4b1899486356/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/203f316009b2a3d0d821e4a232ce5481/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/203f316009b2a3d0d821e4a232ce5481/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/2d953b6b433c60da60f82f61a5544b33/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/2d953b6b433c60da60f82f61a5544b33/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/1ea5c9df8f9744599aba22f83838050b/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/1ea5c9df8f9744599aba22f83838050b/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/5c018e6e36b1eeee5a500e1ddf71ea42/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/5c018e6e36b1eeee5a500e1ddf71ea42/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/f2249c5ebaf837c6e05f995d98882403/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/f2249c5ebaf837c6e05f995d98882403/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/6bf517859086da9b2c7030e3263dde68/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/6bf517859086da9b2c7030e3263dde68/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/8414669b40a27efd864cce544d5a6894/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /Users/tanseer/.gradle/caches/8.10.2/transforms/8414669b40a27efd864cce544d5a6894/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebba65e06944fedf0dfff5f859e90997/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebba65e06944fedf0dfff5f859e90997/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/57f1764a9e22ea3d4cc1a47ec9f1f96e/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/57f1764a9e22ea3d4cc1a47ec9f1f96e/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fcb541edbfa2b68c8e11912f0c1846fd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/fcb541edbfa2b68c8e11912f0c1846fd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/deb75355f9098d3bd706b974a4ab4460/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/deb75355f9098d3bd706b974a4ab4460/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b3e881fc8fcec529ba2fb7205da82f34/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/b3e881fc8fcec529ba2fb7205da82f34/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d848129a2747b3216d75d03141d58464/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/d848129a2747b3216d75d03141d58464/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/8128516a466a0fc8a6ba9c88f4e8f20b/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/tanseer/.gradle/caches/8.10.2/transforms/8128516a466a0fc8a6ba9c88f4e8f20b/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/adfb5e857513868a61af22ee090a9cab/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/adfb5e857513868a61af22ee090a9cab/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/5b596e26e42d3f9b83956d3204181d9d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/5b596e26e42d3f9b83956d3204181d9d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebf5c1b70fcef86f96821fd841bf7d3d/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/ebf5c1b70fcef86f96821fd841bf7d3d/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/f788c78f123a52935e1e0eccc8a13e62/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/f788c78f123a52935e1e0eccc8a13e62/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/69973a4b9bf4e8c845da3454a01d8b5f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/69973a4b9bf4e8c845da3454a01d8b5f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cb1c52d32e2caab1e0ecfc4f577235a9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/cb1c52d32e2caab1e0ecfc4f577235a9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/1c686a934d2dec1c0740b8ba29174fbc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/1c686a934d2dec1c0740b8ba29174fbc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/5784664074d332f2a7f426ff03328428/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/5784664074d332f2a7f426ff03328428/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dad811527b23a2f5115abca16c174079/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dad811527b23a2f5115abca16c174079/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/aed107f3d2c2fa25cdd468c816d1c79d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/aed107f3d2c2fa25cdd468c816d1c79d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dfe94a5c010b85594d9c57e1f94a214a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/dfe94a5c010b85594d9c57e1f94a214a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tanseer/.gradle/caches/8.10.2/transforms/445bab6b4a339a797923e7cd4e20b8fe/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tanseer/.gradle/caches/8.10.2/transforms/445bab6b4a339a797923e7cd4e20b8fe/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/8f6db7c5403634b9c86dc5c773012e97/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/8f6db7c5403634b9c86dc5c773012e97/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/32d66fb2ff657edf7c93fefaf6d86c5d/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/32d66fb2ff657edf7c93fefaf6d86c5d/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/3785a0353628ace50df86d867ba08c5a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/3785a0353628ace50df86d867ba08c5a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2383058c015d03a82b7fca45b2e5e8db/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/2383058c015d03a82b7fca45b2e5e8db/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tanseer/Documents/oopsss/launcher/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/3aeffcf1431860f015252d0331388d5a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/03c863a3c3c2cc9da9f70b53ebac904b/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/b376a5423f7e490d4fc10e7ceab37fbe/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#com.auratv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#com.auratv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/tanseer/.gradle/caches/8.10.2/transforms/31ebaa60f3ee3295dcd3aaa6574be928/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/tanseer/.gradle/caches/8.10.2/transforms/05a5762a307f471a24bf21302e4856d1/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/a684b1b2cb5d5c98ab6324a49d9c32ce/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/tanseer/.gradle/caches/8.10.2/transforms/07233622e142cc9533cac498cd8752fe/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.AuraTVLauncher" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
+
